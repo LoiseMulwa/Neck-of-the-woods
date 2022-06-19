@@ -261,7 +261,7 @@ DATABASES = {
     'default': {
          'ENGINE': 'django.db.backends.postgresql_psycopg2',
         'NAME': 'gallery',
-        'USER': ('moringa'),
+        'USER': 'moringa',
         'PASSWORD':('1234'),
     }
 }
