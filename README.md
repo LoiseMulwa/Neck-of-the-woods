@@ -63,7 +63,8 @@ cd insta pip  install -r requirements.txt
  pip install -r requirements.txt 
 
 ```  
-
+#####
+Click to view License [Click to view license](LICENSE)
 
 ##### Setup Database  
   SetUp your database User,Password, Host then make migrate  
@@ -73,11 +74,12 @@ python manage.py makemigrations <database name>
  Now Migrate  
  ```bash 
  python manage.py migrate 
+
+ 
  #### Running the application
 python manage.py runserver
 
-### License
-Click to view License [Click to view license](LICENSE)
+
  
 #### Author's Info
 * Name -Loise Mulwa.
