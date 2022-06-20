@@ -1,8 +1,16 @@
 {%extends 'user/base.html'%}
 {% load crispy_forms_tags %}
 {% block content %}
+
+<style>
+    body{
+        background-image: url('https://images.unsplash.com/photo-1603298108410-e6f28ad2708d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1033&q=80');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+</style>
 <div class="container mt-5 col-3 ">
-    <div class="card mx-auto " style="width: 35rem;">
+    <div class="card mx-auto " style="width: 35rem; margin-left: 40px;">
  <div class ="content-section px-3">
      <form method ="POST">
          {%csrf_token%}
