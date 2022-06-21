@@ -41,7 +41,7 @@ To run the application, in your terminal:
  * $n cd app
  * $ python3 views.py
 ## live site
- [click here]()
+ [click here](https://loisey-django.herokuapp.com/)
 
 ### Technologies Used
 * Python3.8
